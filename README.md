@@ -14,9 +14,7 @@
 - 서로 다른 병원 유형별 데이터셋(`.csv`)을 로딩하여 Pandas로 전처리 후 네 가지 병원 데이터를 하나의 `DataFrame`으로 통합
   ![스크린샷 2025-05-02 오후 8 26 48](https://github.com/user-attachments/assets/a7858438-fda5-48d6-bef5-29526c022b5e)
 
-- Pandas와 Seaborn 라이브러리를 사용하여 대전광역시의 자치구별 의료기관 종류 분포를 피벗 테이블
-  ![스크린샷 2025-05-02 오후 8 28 22](https://github.com/user-attachments/assets/cc3987e8-532a-488f-b174-4e76e1af50a9)
-  피벗 테이블을 사용하여 히트맵 형태로 시각화
+- Pandas와 Seaborn 라이브러리를 사용하여 대전광역시의 자치구별 의료기관 종류 분포를 피벗 테이블을 사용하여 히트맵 형태로 시각화
   ![스크린샷 2025-05-02 오후 8 28 40](https://github.com/user-attachments/assets/5ee73e94-1a89-4df6-9cbf-8a54cd14d2c4)
 
 - Folium 라이브러리를 사용해서 단계구분도(Choropleth map), 즉 자치구별 의료기관 수를 지도 위에 색으로 표현한 시각화
